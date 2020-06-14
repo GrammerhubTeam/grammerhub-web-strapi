@@ -17,6 +17,10 @@
     "blogs": {
       "via": "tags",
       "collection": "blog"
+    },
+    "events": {
+      "via": "tags",
+      "collection": "event"
     }
   }
 }
