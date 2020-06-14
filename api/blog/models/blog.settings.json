@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "Blog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext",
+      "required": true
+    },
+    "Author": {
+      "type": "string",
+      "required": true,
+      "default": "Anonymous"
+    },
+    "Created": {
+      "required": true,
+      "type": "datetime"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "blogs",
+      "dominant": true
+    }
+  }
+}
