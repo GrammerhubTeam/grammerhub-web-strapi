@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "name": "Test"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "isTest": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
