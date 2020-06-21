@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "media_infos",
   "info": {
-    "name": "MultiMedia"
+    "name": "MediaInfo"
   },
   "options": {
     "increments": true,
