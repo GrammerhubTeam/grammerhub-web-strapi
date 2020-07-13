@@ -18,8 +18,7 @@
       "required": true
     },
     "StartDate": {
-      "type": "datetime",
-      "required": true
+      "type": "date"
     },
     "LengthHours": {
       "type": "decimal"
@@ -37,6 +36,12 @@
       "collection": "tag",
       "via": "events",
       "dominant": true
+    },
+    "EndDate": {
+      "type": "date"
+    },
+    "Time": {
+      "type": "time"
     }
   }
 }

@@ -40,6 +40,12 @@
       "collection": "tag",
       "via": "blogs",
       "dominant": true
+    },
+    "StartDate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
     }
   }
 }
