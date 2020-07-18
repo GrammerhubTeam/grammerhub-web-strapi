@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Event"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "EventName": {
+      "type": "string",
+      "required": true
+    },
+    "Address": {
+      "type": "string",
+      "required": true
+    },
+    "StartDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "LengthHours": {
+      "type": "decimal"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "VendorInfo": {
+      "type": "json"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "events",
+      "dominant": true
+    }
+  }
+}

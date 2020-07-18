@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "media_infos",
+  "info": {
+    "name": "MediaInfo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "URL": {
+      "type": "string",
+      "required": true
+    },
+    "ImageURL": {
+      "type": "string"
+    }
+  }
+}
