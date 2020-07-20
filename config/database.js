@@ -1,5 +1,5 @@
 module.exports = ({ env }) => {
-  console.log(env)
+  console.log(env('DATABASE_HOST', '127.0.0.1'))
   return {
   defaultConnection: 'default',
   connections: {
