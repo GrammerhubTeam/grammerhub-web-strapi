@@ -1,0 +1,5 @@
+{
+  "myCustomConfiguration": "This configuration is accessible through strapi.config.environments.development.myCustomConfiguration",
+  "MAILGUN_API_KEY": "${process.env.MAILGUN_API_KEY}",
+  "MAILGUN_DOMAIN":"${process.env.MAILGUN_DOMAIN}"
+}
