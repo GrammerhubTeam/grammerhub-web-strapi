@@ -4,7 +4,7 @@ module.exports = ({ env }) => {
   defaultConnection: 'default',
   connections: {
     default: {
-      connector: 'strapi-mongoose',
+      connector: 'strapi-hook-mongoose',
       settings: {
         host: env('DATABASE_HOST', '127.0.0.1'),
         srv: env.bool('DATABASE_SRV', false),
