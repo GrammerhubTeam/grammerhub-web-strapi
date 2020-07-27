@@ -1,1 +1,1 @@
-web: yarn run start 
+web: ls && yarn run start 
