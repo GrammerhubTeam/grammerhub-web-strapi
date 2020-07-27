@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "media_infos",
+  "info": {
+    "name": "mediainfo",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "ImageURL": {
+      "type": "string"
+    }
+  }
+}

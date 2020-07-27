@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/media-infos",
-      "handler": "media-info.find",
+      "path": "/mediainfos",
+      "handler": "Mediainfo.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/media-infos/count",
-      "handler": "media-info.count",
+      "path": "/mediainfos/count",
+      "handler": "Mediainfo.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/media-infos/:id",
-      "handler": "media-info.findOne",
+      "path": "/mediainfos/:_id",
+      "handler": "Mediainfo.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/media-infos",
-      "handler": "media-info.create",
+      "path": "/mediainfos",
+      "handler": "Mediainfo.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/media-infos/:id",
-      "handler": "media-info.update",
+      "path": "/mediainfos/:_id",
+      "handler": "Mediainfo.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/media-infos/:id",
-      "handler": "media-info.delete",
+      "path": "/mediainfos/:_id",
+      "handler": "Mediainfo.delete",
       "config": {
         "policies": []
       }

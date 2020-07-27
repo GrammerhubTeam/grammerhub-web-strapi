@@ -1,25 +1,25 @@
 {
-  "kind": "collectionType",
+  "connection": "default",
   "collectionName": "events",
   "info": {
-    "name": "Event"
+    "name": "event",
+    "description": ""
   },
   "options": {
-    "increments": true,
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "EventName": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "Address": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "StartDate": {
-      "type": "datetime",
-      "required": true
+      "type": "date"
     },
     "LengthHours": {
       "type": "decimal"
@@ -28,15 +28,14 @@
       "type": "string"
     },
     "Description": {
-      "type": "richtext"
+      "type": "text"
     },
-    "VendorInfo": {
+    "VenderInfo": {
       "type": "json"
     },
     "tags": {
       "collection": "tag",
-      "via": "events",
-      "dominant": true
+      "via": "events"
     }
   }
 }

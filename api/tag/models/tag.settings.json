@@ -1,26 +1,29 @@
 {
-  "kind": "collectionType",
+  "connection": "default",
   "collectionName": "tags",
   "info": {
-    "name": "Tag"
+    "name": "tag",
+    "description": ""
   },
   "options": {
-    "increments": true,
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "Name": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
-    "blogs": {
-      "via": "tags",
-      "collection": "blog"
+      "type": "string"
     },
     "events": {
+      "collection": "event",
       "via": "tags",
-      "collection": "event"
+      "dominant": true
+    },
+    "blogs": {
+      "collection": "blog",
+      "via": "tags",
+      "dominant": true
     }
   }
 }
