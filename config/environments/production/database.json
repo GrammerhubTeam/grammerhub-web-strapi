@@ -4,20 +4,20 @@
     "default": {
       "connector": "strapi-hook-mongoose",
       "settings": {
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "srv": "${process.env.DATABASE_SRV || false}",
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}",
-        "ssl": "${process.env.DATABASE_SSL || false}"
+        "database": "grammerhub-web-strapi",
+        "host": "cluster0-shard-00-01-6rjco.mongodb.net:27017",
+        "srv": "false",
+        "port": 27017,
+        "username": "gabe",
+        "password": "2fvYj3TntIktcTFt"
       },
       "options": {
-        "ssl": "${process.env.DATABASE_SSL || false}",
-        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}",
-        "useUnifiedTopology": true
+        "authenticationDatabase": "",
+        "useUnifiedTopology": true,
+        "ssl": true
       }
     }
   }
 }
+
 
