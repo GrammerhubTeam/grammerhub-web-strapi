@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/events",
-      "handler": "event.find",
+      "handler": "Event.find",
       "config": {
         "policies": []
       }
@@ -11,15 +11,15 @@
     {
       "method": "GET",
       "path": "/events/count",
-      "handler": "event.count",
+      "handler": "Event.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/events/:id",
-      "handler": "event.findOne",
+      "path": "/events/:_id",
+      "handler": "Event.findOne",
       "config": {
         "policies": []
       }
@@ -27,23 +27,23 @@
     {
       "method": "POST",
       "path": "/events",
-      "handler": "event.create",
+      "handler": "Event.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/events/:id",
-      "handler": "event.update",
+      "path": "/events/:_id",
+      "handler": "Event.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/events/:id",
-      "handler": "event.delete",
+      "path": "/events/:_id",
+      "handler": "Event.delete",
       "config": {
         "policies": []
       }

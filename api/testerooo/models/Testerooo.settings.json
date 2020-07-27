@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "testeroo",
+  "info": {
+    "name": "testerooo",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "testfield": {
+      "type": "text"
+    }
+  }
+}
