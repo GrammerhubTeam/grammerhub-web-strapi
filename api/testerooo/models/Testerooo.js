@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Tag` model.
+ * Lifecycle callbacks for the `Testerooo` model.
  */
 
 module.exports = {
