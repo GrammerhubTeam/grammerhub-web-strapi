@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "babel-eslint": "^10.0.0",
@@ -17,28 +18,23 @@
     "eslint-plugin-react": "^7.14.0"
   },
   "dependencies": {
-    "axios": "^0.19.0",
-    "css-validator": "^0.8.1",
-    "dotenv": "^8.2.0",
-    "strapi": "3.0.0-beta.15",
-    "strapi-admin": "3.0.0-beta.15",
-    "strapi-hook-mongoose": "3.0.0-beta.15",
-    "strapi-plugin-content-manager": "3.0.0-beta.15",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.15",
-    "strapi-plugin-documentation": "^3.0.0-beta.15",
-    "strapi-plugin-email": "3.0.0-beta.15",
-    "strapi-plugin-graphql": "^3.0.0-beta.15",
-    "strapi-plugin-settings-manager": "3.0.0-beta.15",
-    "strapi-plugin-upload": "3.0.0-beta.15",
-    "strapi-plugin-users-permissions": "3.0.0-beta.15",
-    "strapi-provider-upload-google-cloud-storage": "^3.0.0-beta.15",
-    "strapi-utils": "3.0.0-beta.15"
+    "lodash": "^4.17.5",
+    "strapi": "3.0.0-beta.14",
+    "strapi-admin": "3.0.0-beta.14",
+    "strapi-utils": "3.0.0-beta.14",
+    "strapi-plugin-settings-manager": "3.0.0-beta.14",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.14",
+    "strapi-plugin-content-manager": "3.0.0-beta.14",
+    "strapi-plugin-users-permissions": "3.0.0-beta.14",
+    "strapi-plugin-email": "3.0.0-beta.14",
+    "strapi-plugin-upload": "3.0.0-beta.14",
+    "strapi-hook-mongoose": "3.0.0-beta.14"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "22cc3185-c9ad-48b5-9692-5eb5d9c6ad16"
+    "uuid": "2bf853d1-ea30-470a-9f76-18d9d02b94b1"
   },
   "engines": {
     "node": ">=10.0.0",
