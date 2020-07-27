@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "curl -sL https://deb.nodesource.com/setup_13.x | bash - && apt-get install -y nodejs",
+    "build": "strapi build",
     "strapi": "strapi",
     "lint": "eslint ."
   },
