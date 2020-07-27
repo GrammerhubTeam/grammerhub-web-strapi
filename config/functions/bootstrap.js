@@ -9,5 +9,6 @@
  */
 
 module.exports = cb => {
+  console.log('================', process.env, '===============')
   cb();
 };
