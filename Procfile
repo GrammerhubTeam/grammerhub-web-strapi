@@ -1,1 +1,1 @@
-web: ls && yarn run start 
+web: yarn run build && yarn run develop 
