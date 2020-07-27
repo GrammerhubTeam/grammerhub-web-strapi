@@ -1,1 +1,1 @@
-web: ls
+web: yarn run develop
